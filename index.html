@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart and Checkout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cart">
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="orange-juice.jpg" alt="Orange Juice">
+                <div class="item-details">
+                    <p>Orange juice</p>
+                    <div class="item-quantity">
+                        <button class="quantity-minus">-</button>
+                        <input type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                    </div>
+                    <p>€2</p>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="fondente.jpg" alt="Fondente">
+                <div class="item-details">
+                    <p>Fondente <br> <span>Wholemeal dough</span></p>
+                    <div class="item-quantity">
+                        <button class="quantity-minus">-</button>
+                        <input type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                    </div>
+                    <p>€2</p>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="homer.jpg" alt="Homer">
+                <div class="item-details">
+                    <p>Homer <br> <span>Strawberry filling</span></p>
+                    <div class="item-quantity">
+                        <button class="quantity-minus">-</button>
+                        <input type="number" value="1" min="1">
+                        <button class="quantity-plus">+</button>
+                    </div>
+                    <p>€2</p>
+                </div>
+            </div>
+        </div>
+        <div class="cart-summary">
+            <div class="recap">
+                <input type="text" placeholder="Insert coupon">
+                <p>Subtotal: €6</p>
+                <p>Shipping: €2</p>
+                <h2>Total: €8</h2>
+                <button class="checkout">Checkout</button>
+                <button class="paypal-checkout">Checkout with PayPal</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
